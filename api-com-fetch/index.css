@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+* {
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+}
+
+#renderUsers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding: 0 100px;
+}
+
+.user img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
+.user button {
+    border: 0;
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.141);
+}
+
+button:hover {
+    color: #000000;
+    background-color: rgba(191, 191, 191, 0.808);
+    animation: spin 3s linear infinite;
+}
+
+.user { 
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
